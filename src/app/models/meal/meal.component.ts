@@ -6,9 +6,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./meal.component.css']
 })
 export class MealComponent implements OnInit {
-  meals: meal[] = [
-    new this.meals('Mango juice,omlett and asparagus')
-  ]
 
   constructor() { }
 
